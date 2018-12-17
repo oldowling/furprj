@@ -70,10 +70,10 @@ if($_SESSION['userinfo']['role']>1){
                                         <table class="table">
                                             <thead>
                                                 <tr>
-                                                    <td>name</td>
+                                                    <td>Name</td>
                                                     <td>Skills</td>
-                                                    <td>QUALIFICATION</td>
-                                                    <td>Experience</td>
+                                                    <td>Course Stream</td>
+                                                    <td>Year</td>
                                                     <td>OBJECTIVES</td>
                                                     <td>Action</td>
                                                 </tr>
@@ -174,7 +174,7 @@ if($_SESSION['userinfo']['role']>1){
                                             
                                             <div class="row form-group">
                                                 <div class="col col-md-3">
-                                                    <label for="select" class=" form-control-label">Qualification</label>
+                                                    <label for="select" class=" form-control-label">Course Stream</label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
                                                     <select name="select" id="selectqualification" class="form-control" ng-model="user.qualification">
@@ -237,8 +237,8 @@ if($_SESSION['userinfo']['role']>1){
                                                 <div class="col-12 col-md-9">
                                                     <select ng-model="user.role" name="select" id="selectrole" class="form-control">
                                                         <option value="">Please select</option>
-                                                        <option value="2">Program Manager</option>
-                                                        <option value="3">Team Lead</option>
+                                                        <option value="2">Academics Manager</option>
+                                                        <option value="3">Student</option>
                                                     </select>
                                                 </div>
                                             </div>   
@@ -266,7 +266,7 @@ if($_SESSION['userinfo']['role']>1){
                     <div class="row">
                         <div class="col-md-12">
                             <div class="copyright">
-                                <p>Copyright © 2019 Find Your Project. All rights reserved. Developed by <a href="https://xtremewebtech.com">Xtreme Web Tech</a>.</p>
+                                <p></p>
                             </div>
                         </div>
                     </div>

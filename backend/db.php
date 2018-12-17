@@ -15,7 +15,7 @@ class config
 
 
     // Connect to the server and select a database
-        $mysqli = new mysqli('localhost','altschoo_project','findproject1234$$$$','altschoo_project');
+        $mysqli = new mysqli('127.0.0.1','oldowling','','sample_db');
        return $mysqli;
             //else{die("Noooo");}
 

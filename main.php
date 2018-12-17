@@ -110,7 +110,7 @@ include 'header.php';
                                 <div class="table-data__tool-left">
                                     <div class="rs-select2--light rs-select2--md">
                                         <select ng-model="search.workstream"  name="property">
-                                            <option value="">Work Stream</option>
+                                            <option value="">Course Stream</option>
                                             <option value="{{1}}">IT</option>
                                             <option value="{{2}}">Business</option>
                                             <option value="{{3}}">HR</option>
@@ -152,7 +152,7 @@ include 'header.php';
                                             </th>
 -->
                                             <th>name</th>
-                                            <th>work stream</th>
+                                            <th>course stream</th>
                                             <th>description</th>
                                             <th>programming language</th>
                                             <th>status</th>
@@ -254,7 +254,7 @@ include 'header.php';
                                             </div>
                                             <div class="row form-group">
                                                 <div class="col col-md-3">
-                                                    <label for="select" class=" form-control-label">Work Stream</label>
+                                                    <label for="select" class=" form-control-label">Course Stream</label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
                                                     <select ng-model="project.workstream" name="select" id="select" class="form-control">
@@ -342,7 +342,7 @@ include 'header.php';
                     <div class="row">
                         <div class="col-md-12">
                             <div class="copyright">
-                                <p>Copyright © 2019 Find Your Project. All rights reserved. Developed by <a href="https://xtremewebtech.com">Xtreme Web Tech</a>.</p>
+                                <p></p>
                             </div>
                         </div>
                     </div>

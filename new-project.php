@@ -78,7 +78,7 @@ if($_SESSION['userinfo']['role']>2){
                                             </div>
                                             <div class="row form-group">
                                                 <div class="col col-md-3">
-                                                    <label for="select" class=" form-control-label">Work Stream</label>
+                                                    <label for="select" class=" form-control-label">Course Stream</label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
                                                     <select ng-model="project.workstream" name="select" id="select" class="form-control">
@@ -154,7 +154,7 @@ if($_SESSION['userinfo']['role']>2){
                     <div class="row">
                         <div class="col-md-12">
                             <div class="copyright">
-                                <p>Copyright © 2019 Find Your Project. All rights reserved. Developed by <a href="https://xtremewebtech.com">Xtreme Web Tech</a>.</p>
+                                <p></p>
                             </div>
                         </div>
                     </div>

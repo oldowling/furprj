@@ -83,7 +83,7 @@ if($_SESSION['userinfo']['role']>1){
                                             
                                             <div class="row form-group">
                                                 <div class="col col-md-3">
-                                                    <label for="select" class=" form-control-label">Qualification</label>
+                                                    <label for="select" class=" form-control-label">Course Stream</label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
                                                     <select name="select" id="selectqualification" class="form-control" ng-model="user.qualification">
@@ -97,11 +97,11 @@ if($_SESSION['userinfo']['role']>1){
                                             </div>   
                                             <div class="row form-group">
                                                 <div class="col col-md-3">
-                                                    <label for="text-input" class=" form-control-label">Experience</label>
+                                                    <label for="text-input" class=" form-control-label">Year in college</label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
-                                                    <input ng-model="user.experience" type="text" id="experience-input" name="text-input" placeholder="User Experience" class="form-control">
-                                                    <small class="form-text text-muted">Working years as a professional</small>
+                                                    <input ng-model="user.experience" type="text" id="experience-input" name="text-input" placeholder="Students Experience" class="form-control">
+                                                    <small class="form-text text-muted">Total years spent in college</small>
                                                 </div>
                                             </div>                                            
 
@@ -146,8 +146,8 @@ if($_SESSION['userinfo']['role']>1){
                                                 <div class="col-12 col-md-9">
                                                     <select ng-model="user.role" name="select" id="selectrole" class="form-control">
                                                         <option value="">Please select</option>
-                                                        <option value="2">Manager</option>
-                                                        <option value="3">Team Lead</option>
+                                                        <option value="2">Academics Manager</option>
+                                                        <option value="3">Student</option>
                                                     </select>
                                                 </div>
                                             </div>   
@@ -177,7 +177,7 @@ if($_SESSION['userinfo']['role']>1){
                     <div class="row">
                         <div class="col-md-12">
                             <div class="copyright">
-                                <p>Copyright © 2019 Find Your Project. All rights reserved. Developed by <a href="https://xtremewebtech.com">Xtreme Web Tech</a>.</p>
+                                <p></p>
                             </div>
                         </div>
                     </div>
